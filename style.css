@@ -4,7 +4,7 @@
 
 /* TODO #1: Change "Roboto" to any other Google Font or local font you prefer. */
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Big Shoulders", Arial, sans-serif;
   /* TODO #2: Adjust the background color if you want a different look. */
   background-color: #f8f9fa;
   margin: 0;
@@ -25,6 +25,14 @@ body {
 /* TODO #4: Uncomment or change the background property below to add a custom hero image. */
 .hero-section {
   background-color: #007bff;
+  background-image: url("images/minion.jpg"), url("https://i.pinimg.com/474x/12/22/a4/1222a42b1921e8bced69abe1fe46f997.jpg");
+  background-repeat: no-repeat, no-repeat; 
+  background-position-x: left, right;
+  background-position-y: center,center;
+
+
+
+
   height: 60vh; 
   color: #fff;
 }

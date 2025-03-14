@@ -35,3 +35,6 @@ function isEvenOrOdd() {
     document.getElementById("result").innerText = "Please enter a valid number.";
   }
 }
+function redirectToGame(game) {
+  window.location.href = game;
+}

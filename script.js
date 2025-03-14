@@ -15,4 +15,23 @@ document.addEventListener("DOMContentLoaded", function () {
       randomColor.toUpperCase()
     );
   });
+
+ 
 });
+
+function checkEvenOrOdd(number) {
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+function isEvenOrOdd() {
+  const input = document.getElementById("numberInput").value;
+  const number = parseInt(input);
+  if (!isNaN(number)){
+    document.getElementById("result").innerText = `the number ${number} is ${checkEvenOrOdd(number)}`;
+  } else {
+    document.getElementById("result").innerText = "Please enter a valid number.";
+  }
+}
